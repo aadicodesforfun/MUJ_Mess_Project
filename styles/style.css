@@ -1,3 +1,5 @@
+/* ------ ALL PAGES STYLES ------ */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,16 +17,6 @@ a{
     color: black;
 }
 
-.page1 {
-    background-color: beige;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    /* align-items: space-between; */
-    justify-content: space-between;
-}
-
 header {
     display: flex;
     margin: 0 10px;
@@ -32,15 +24,9 @@ header {
     /* align-items: center; */
 }
 
-footer {
+/* menu */
+.buttons{
     display: flex;
-    /* margin: ; */
-    justify-content: space-between;
 }
 
-.hero{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+/* Menu/voting styles */
