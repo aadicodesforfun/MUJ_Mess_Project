@@ -26,7 +26,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     min-height: 100vh;
     margin: 0;
     background-color: rgb(119, 242, 238);
