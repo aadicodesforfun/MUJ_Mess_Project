@@ -1,0 +1,22 @@
+/* For Both Bluedove and Bluepsring */
+
+.day-container{
+  display: flex;
+}
+
+.day-container *{
+  margin: 5px 10px;
+}
+
+.menu-container,.votes-container{
+  display: flex;
+  align-items: center;
+  height: 200px;
+  width: 50%;
+  background-color: red;
+}
+
+.menu-container img{
+  height: 200px;
+  margin: auto;
+}
