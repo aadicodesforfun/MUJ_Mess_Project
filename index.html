@@ -5,26 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mess Voting</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/elements.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wdth,wght@100.1,500&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <div class="page1">
         <header>
-            <h1>PROJECT M</h1>
-            <button class="home-btn about-btn">ABOUT US</button>
+            <div onclick="window.location.href = './';"><h1>PROJECT M</h1></div>
+            <div class="home-btn about-btn" onclick="window.location.href = './about';">ABOUT US</div>
         </header>
         <div class="hero">
-            <h2>INTRO</h2>
+            <h2>Personal Mess Guide</h2>
             <div class="mess-btns">
-                <button class="mess-btn bludove-btn">BLUDOVE</button>
-                <button class="mess-btn bluespring-btn">BLUESPRING</button>
+                <button class="mess-btn bludove-btn" onclick="window.location.href = './bluedove';">BLUDOVE</button>
+                <button class="mess-btn bluespring-btn" onclick="window.location.href = './bluespring';">BLUESPRING</button>
             </div>
         </div>
         <footer>
-            <button class="home-btn contact-btn">CONTACT US</button>
-            <button class="home-btn view-btn">VIEW MORE</button>
+            <div class="home-btn contact-btn" onclick="window.location.href = './contact-us';">CONTACT US</div>
+            <div class="home-btn view-btn">VIEW MORE</div>
         </footer>
     </div>
 
