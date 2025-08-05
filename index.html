@@ -35,6 +35,19 @@
         </footer>
     </div>
 
+    <!-- Gets Todays menu || Copy Paste Anywhere to get the menu-->
+    <script type="module">
+        import { getTodayMenu } from './database.js'
+
+        const data = await getTodayMenu()
+        if (data) {
+            console.log(data)
+        } else {
+            console.log("No menu today")
+        }
+    </script>
+
+
     <script src="script.js"></script>
 </body>
 
