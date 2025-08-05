@@ -1,7 +1,7 @@
 import { getAllMenus } from '../database.js'
 const menus = await getAllMenus()
 
-const meals = ['breakfast', 'lunch']
+const meals = ['breakfast', 'lunch', 'snacks', 'dinner']
 
 //sort menus from new to old
 const sortedDates = Object.keys(menus).sort().reverse() // ascending
