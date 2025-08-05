@@ -1,13 +1,14 @@
 /* Home Page Styles */
 
 .page1 {
-    background-color: beige;
+    background-color: rgb(232, 228, 205);
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     /* align-items: space-between; */
     justify-content: space-between;
+    font-family: sans-serif;
 }
 
 
@@ -20,6 +21,28 @@ footer {
 .hero{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+}
+
+.hero h2{
+    font-size: 9vw;
+    color: brown;
+    font-family: sans-serif;
+    margin-bottom: 13vh;
+}
+
+.hero h3{
+    font-size: 30px;
+    margin-bottom: 3vh;
+}
+
+.mess-btn{
+    height: 60px;
+    width: 150px;
+    border-radius: 999px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    margin: 1vh;
 }
