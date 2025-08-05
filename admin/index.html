@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Menu Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    #itemsList {
+      margin-top: 10px;
+    }
+    .item {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Mess Menu Form</h2>
+
+  <form id="menuForm">
+    <label>
+      Select Date:
+      <input type="date" id="date" required>
+    </label>
+
+    <label>
+      Select Mess:
+      <select id="mess" required>
+        <option value="">-- Select Mess --</option>
+        <option value="bluedove">BlueDove</option>
+        <option value="bluespring">BlueSpring</option>
+      </select>
+    </label>
+
+    <label>
+      Select Meal:
+      <select id="meal" required>
+        <option value="">-- Select Meal --</option>
+        <option value="breakfast">Breakfast</option>
+        <option value="lunch">Lunch</option>
+        <option value="snacks">Snacks</option>
+        <option value="dinner">Dinner</option>
+      </select>
+    </label>
+
+    <label>
+      Add Item:
+      <input type="text" id="itemInput" placeholder="e.g. Poha">
+      <button type="button" id="addItemBtn">Add Item</button>
+    </label>
+
+    <div id="itemsList"></div>
+
+    <br>
+    <button type="submit">Submit Menu</button>
+  </form>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
