@@ -64,7 +64,7 @@ recentmenus.forEach((date) => {
     itemContainer.classList.add('item-container')
 
     
-    const mealItems = menus[date].bluedove[meal]
+    const mealItems = menus[date].bluespring[meal]
     if (!mealItems) return;
     mealItems.forEach((item, index) => {
       html += `<p><span style='font-weight: bold; color: rgb(0, 43, 34);'>${index+1} </span>${item}</p>`
