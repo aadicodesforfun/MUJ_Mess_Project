@@ -15,6 +15,11 @@ button:hover{
     font-size: 17px;
     font-weight: 600;
     cursor: pointer;
+    transition: color 0.3s;
+}
+
+.home-btn:hover{
+    color: rgba(100, 0, 0, 0.747);
 }
 
 .page1 header div h1{
