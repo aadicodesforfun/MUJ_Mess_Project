@@ -41,8 +41,21 @@ footer {
     height: 60px;
     width: 150px;
     border-radius: 999px;
-    font-size: 14px;
+    font-size: 17px;
     color: white;
     background-color: black;
+    transform: scale(1);
+    transition: transform 0.4s ease-out;
     margin: 1vh;
+}
+
+.mess-btn:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    transition: transform 0.4s ease-out;
+}
+
+.home-btn{
+    font-size: xx-large;
 }
