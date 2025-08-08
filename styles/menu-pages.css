@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  background-image: url('../images/bg.jpg');
+  background-image: url('../images/bg4.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -16,7 +16,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  backdrop-filter: blur(3px); /* increase/decrease as needed */
+  backdrop-filter: blur(7px); /* increase/decrease as needed */
   z-index: 0; /* stay behind all content */
   pointer-events: none;
 }
@@ -41,7 +41,7 @@ body > *:not(.background-blur-layer) {
 .menu-container,.votes-container{
   
   background-color: rgba(255, 255, 255, 0.458);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(25px);
   margin: 5px 10px;
   align-items: center;
   text-align: center;
@@ -64,7 +64,7 @@ body > *:not(.background-blur-layer) {
 }
 
 .menu-container p,.votes-container p{
-  background-color: beige;
+  background-color: rgb(230, 211, 159);
   text-transform: capitalize;
   font-size: 20px;
   padding: 5px;
