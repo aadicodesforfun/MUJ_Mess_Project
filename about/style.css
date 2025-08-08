@@ -1,8 +1,12 @@
+*{
+
+}
+
 .about-container {
     max-width: 800px;
     margin: auto;
     padding: 30px 40px;
-    background: #d2f5f0;
+    background: beige;
     
     border-radius: 20px;
    
@@ -29,10 +33,29 @@ body {
     /* align-items: center; */
     min-height: 100vh;
     margin: 0;
-    background-color: rgb(119, 242, 238);
+    background-color: beige
 }
 
-header{
+/* header{
     display: flex;
     justify-content: space-between;
+} */
+
+.Us a{
+    color: purple;
+    font-weight: 700;
+}
+
+footer{
+    background-color: rgb(51, 82, 122);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 800;
 }
