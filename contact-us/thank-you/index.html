@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 20%;
+        }
+        h1 {
+            font-size: 2em;
+        }
+        span {
+            font-weight: bold;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Thank you for submiting the form! <br>We Will reply soon.<br><br>Redirecting in <span id="countdown">5</span> seconds...</h1>
+
+    <script>
+        let seconds = 5;
+        const countdownEl = document.getElementById("countdown");
+
+        const timer = setInterval(() => {
+            seconds--;
+            countdownEl.textContent = seconds;
+            if (seconds <= 0) {
+                clearInterval(timer);
+                window.location.href = "../"; // Change to your homepage URL
+            }
+        }, 1000);
+    </script>
+
+</body>
+</html>

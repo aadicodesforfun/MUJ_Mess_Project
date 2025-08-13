@@ -37,3 +37,7 @@ header{
   align-items: center;
   font-weight: 600;
 }
+
+.name{
+    cursor: pointer;
+}
